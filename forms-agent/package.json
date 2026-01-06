@@ -1,0 +1,25 @@
+{
+  "name": "forms-agent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "graph.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@langchain/core": "^1.1.9",
+    "@langchain/google-genai": "^2.1.4",
+    "@langchain/langgraph": "^1.0.7",
+    "@langchain/openai": "^1.2.1",
+    "axios": "^1.13.2",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "langchain": "^1.2.4",
+    "zod": "^4.3.5"
+  }
+}
